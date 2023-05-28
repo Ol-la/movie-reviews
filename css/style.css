@@ -1,0 +1,188 @@
+body {
+  background-color: #222;
+  color: #e6dfd5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1{text-align:center; }
+
+a {
+  color: #e6dfd5;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+}
+
+nav {
+  background-color: #111;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #ff6d6d;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ff6d6d;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.home {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 36px;
+}
+
+.home p {
+  font-size: 20px;
+}
+
+.reviews {
+  margin-top: 40px;
+}
+
+.review-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.review-item img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.review-item-content {
+  flex-grow: 1;
+}
+
+.review-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.review-item p {
+  font-size: 16px;
+}
+
+.recommendations {
+  margin-top: 40px;
+}
+
+.recommendation-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.recommendation-item img {
+  width: 100%;
+  height: auto;
+}
+
+.recommendation-item-content {
+  grid-column: span 2;
+}
+
+.recommendation-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recommendation-item p {
+  font-size: 16px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.Survey {
+  margin-top: 40px;
+}
+
+.Survey-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Survey-form input,
+.Survey-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.Survey-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffcc00;
+  border: none;
+  color: #222;
+  cursor: pointer;
+}
+
+.Survey-form button:hover {
+  background-color: #ffdd33;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
