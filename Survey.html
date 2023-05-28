@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie Reviews - About</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="Video Reviews.html">Video Reviews</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="content">
+  </div>
+  <div class="container">
+     <div class="photo">
+    <h1>Невеличке опитування</h1>
+    <p>Шановний користувачу,</p>
+
+<p>Ми хотіли б отримати вашу допомогу у зборі даних щодо фільмів для покращення нашого вміння зробити огляди, які вам дійсно цікаві. Це коротке опитування про ваші кіновподобання та звички перегляду фільмів.
+
+Ваші відповіді допоможуть нам зрозуміти, які фільми є найбільш популярними серед наших читачів та які теми вам особливо цікаві. Зібрана інформація допоможе нам підготувати огляди, які будуть відповідати вашим кіновподобанням.
+
+Будь ласка, відповідайте чесно та з увагою. Ваші думки і преференції мають велике значення для нас. Після проходження опитування ми надамо вам список рекомендованих фільмів, які можуть вас зацікавити, з урахуванням вашого улюбленого жанру.
+
+Дякуємо за вашу участь у нашому опитуванні. Ми дуже цінуємо ваші відгуки та сподіваємося продовжувати надавати вам якісні та захоплюючі огляди фільмів.</p>
+
+<p>З повагою,</p>
+<p>Команда відгуків про фільми! </p>
+
+<style media="screen">
+body {
+  margin  : 0;
+  background : #222;
+}
+form {
+  position: relative;
+  width  : 740px;
+  height : 100%;
+  margin : 0 auto;
+  background : #222;
+  font-size:21PX;
+}
+input[type=text] {
+  border-style: solid;
+  border-radius: 3;
+  border-color:#FFFFFF;
+  background-color: #FFFFFF;
+}
+
+</style>
+
+</head>
+<body>
+
+<form >
+  <fieldset>
+  <legend>Коротко про себе</legend>
+  Ім'я:<br>
+  <input type="text" name="firstname" placeholder="Введіть Ваше ім'я" required><br>
+  Прізвище:<br>
+  <input type="text" name="lastname" placeholder="Введіть Ваше прізвище" required>
+  Стать<br>
+  <input type="radio" name="gender" > Чоловіча
+  <input type="radio" name="gender" > Жіноча<br>
+  Вік <input type="number" name="age"> років
+  </fieldset>
+
+  <br>
+  <fieldset>
+  <legend>Детальніше про себе</legend>
+
+  <p>Що Ви зазвичай робите на вихідних?</p>
+  <input type="checkbox" name="actions1" > Гуляю<br>
+  <input type="checkbox" name="actions2" > Дивлюся фільми або серіали <br>
+  <input type="checkbox" name="actions3" > Навчаюся <br>
+
+  <p>Який ваш улюблений жанр фільмів?</p>
+  <select name="food">
+  <option value="pizza">Фільми жахів</option>
+  <option value="sushi">Драми</option>
+  <option value="dessert">Комедії</option>
+  <option value="steak">Мелодрами</option>
+  <option value="steak">Детективи</option>
+  <option value="steak">Документальні фільми</option>
+  <option value="steak">Бойовики</option>
+  <option value="steak">Фантастика</option>
+  <input type="text" name="lastname" placeholder="Інший жанр:" required>
+
+  </select>
+  <br>
+
+  <p>Скільки фільмів Ви переглянули за останній рік?</p>
+  <input type="radio" name="books1" > 0-5<br>
+  <input type="radio" name="books2" > 6-10<br>
+  <input type="radio" name="books3" > 11-15<br>
+  <input type="radio" name="books4" > 16+<br>
+
+  <p>Виберіть варіант у списку нижче</p>
+    <select name="form_select" size="3" multiple="multiple">
+      <option selected="selected" value="Значение 1">Як часто ви дивитеся фільми</option>
+      <option value="Значение 2">Щодня</option>
+      <option value="Значение 3">Кілька раз в тиждень</option>
+      <option value="Значение 4">Щотижня</option>
+      <option value="Значение 5">Кілька раз в місяць</option>
+      <option value="Значение 6">Щомісяця</option>
+    </select>
+
+    <p>Оберіть вашу оцінку для таких фільмів:</p>
+    <p>
+      <label for="rating1">Титанік:</label>
+      <select id="rating1" name="rating1" required>
+        <option value="">Оберіть оцінку</option>
+        <option value="5">Відмінно</option>
+        <option value="4">Добре</option>
+        <option value="3">Задовільно</option>
+        <option value="2">Погано</option>
+        <option value="1">Жахливо</option>
+      </select>
+    </p>
+    <p>
+      <label for="rating2">Примара Опери:</label>
+      <select id="rating2" name="rating2" required>
+        <option value="">Оберіть оцінку</option>
+        <option value="5">Відмінно</option>
+        <option value="4">Добре</option>
+        <option value="3">Задовільно</option>
+        <option value="2">Погано</option>
+        <option value="1">Жахливо</option>
+      </select>
+    </p>
+    <p>
+      <label for="rating3">Месники:</label>
+      <select id="rating3" name="rating3" required>
+        <option value="">Оберіть оцінку</option>
+        <option value="5">Відмінно</option>
+        <option value="4">Добре</option>
+        <option value="3">Задовільно</option>
+        <option value="2">Погано</option>
+        <option value="1">Жахливо</option>
+      </select>
+    </p>
+
+      <p>Напишіть свої відгуки та пропозиції:</p> <br>
+      <textarea> </textarea> <br>
+    </fieldset>
+    <br>
+  <fieldset>
+  <legend>І на завершення</legend>
+  Email:<br>
+  <input type="email" name="mail"><br>
+  Телефон:<br>
+  <input type="tel" name="tel" maxlength=13><br>
+  Країна проживання:<br>
+  <input type="password" name="address"><br>
+  </fieldset>
+  <input type="submit" value="Відправити">
+</form>
+
+
+    <div class="menu category-menu">
+  <hr>
+  <h2>Меню сайта</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="recommendations.html">Recommendations</a></li>
+    <li><a href="Video Reviews.html">Video Reviews</a></li>
+    <li><a href="Survey.html">Survey</a></li>
+  </ul>
+    </div>
+  </section>
+<footer>
+  <p>&copy; 2023 Movie Reviews. Made by Ola.</p>
+</footer>
+</body>
+</html>
